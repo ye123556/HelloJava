@@ -2,7 +2,7 @@ package Practice;
 
 public class Practice04_6 {
     public static void main(String[] args) {
-        for(int i = 1; i <=4 ; i++) {
+        for(int i = 1; i <=4 ; i++) { //for (int i
             for(int j = 3; j>=i; j--) {
                 System.out.print(" ");
             }
@@ -16,3 +16,5 @@ public class Practice04_6 {
     }
 
 }
+
+ //system.out.print(j > 4-i? "*" : " ");

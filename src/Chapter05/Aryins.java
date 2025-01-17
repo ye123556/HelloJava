@@ -29,13 +29,14 @@ public class Aryins {
 
     public static void aryIns(int[] arr, int idx, int value) {
         if (idx >= 0 && idx < arr.length) {
-            arr[idx] = value;
-            for (int i = value; i <arr.length ; i++) {
-                arr[i+1] = arr[i];
+            for (int i = arr.length-1; i >= idx; i--) {
+                arr[i] = arr[i-1];
 
-            /*for (int i = arr.length-1; i > idx; i--) {
-                arr[i] = arr[i-1];*/
-        }
+            /*for (int i = value; i < arr.length; i++) {
+                arr[i+1] = arr[i];*/
+
             }
+            arr[idx] = value;
         }
     }
+}

@@ -1,5 +1,5 @@
 package Chapter05;
-
+// 20250120-1
 import java.util.Scanner;
 
 public class ArrayRemoveOfN {

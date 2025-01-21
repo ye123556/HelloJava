@@ -1,6 +1,6 @@
-package Practice.homework;
+package practice.homework;
 
-import Practice.homework.entity.Player;
+import practice.homework.entity.Player;
 
 import java.util.Random;
 import java.util.Scanner;

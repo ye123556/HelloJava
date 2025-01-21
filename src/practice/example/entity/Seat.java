@@ -1,4 +1,7 @@
-package Practice.example.entitiy;
+package practice.example.entity;
+
+import java.util.Objects;
+
 // 20250120-5
 public class Seat {
 
@@ -9,6 +12,17 @@ public class Seat {
     public Seat(long id) {
         this.id = id;
         this.description = id + "번 좌석";
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (!(o instanceof Seat seat)) return false;
+        return id == seat.id;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(id);
     }
 
     @Override

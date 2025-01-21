@@ -1,5 +1,6 @@
-package Practice.example.entitiy;
+package practice.example.entity;
 // 20250120-8
+
 import java.time.LocalDateTime;
 
 public class Reservation {

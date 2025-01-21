@@ -1,4 +1,4 @@
-package Practice;
+package practice;
 
 //1~100까지의 정수 중에 3의 배수의 총합은?
 public class Problem04_2 {

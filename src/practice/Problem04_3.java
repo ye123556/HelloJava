@@ -1,4 +1,4 @@
-package Practice;
+package practice;
 
 // 두 주사위 누의 합이 5이면 실행을 멈춤
 public class Problem04_3 {

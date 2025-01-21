@@ -1,4 +1,4 @@
-package Practice.homework.entity;
+package practice.homework.entity;
 //20250120
 public class Player {
     private String player;

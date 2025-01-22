@@ -1,5 +1,5 @@
 package chapter06.lecture;
-
+//20250121
 import java.util.Objects;
 
 public class Seat {

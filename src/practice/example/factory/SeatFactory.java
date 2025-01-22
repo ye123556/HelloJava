@@ -1,5 +1,5 @@
 package practice.example.factory;
-
+//20250122
 import practice.example.entity.Seat;
 import java.util.ArrayList;
 import java.util.List;

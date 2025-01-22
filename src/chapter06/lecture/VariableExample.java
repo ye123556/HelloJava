@@ -1,5 +1,5 @@
 package chapter06.lecture;
-
+//20250122
 public class VariableExample {
     public static void main(String[] args) {
         System.out.println("클래스 변수 (인스턴스 생성 없이 접근 가능):" + Scope.staticVariable);

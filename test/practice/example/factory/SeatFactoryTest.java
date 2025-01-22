@@ -1,5 +1,5 @@
 package practice.example.factory;
-
+// 20250122
 import org.junit.jupiter.api.Test;
 import practice.example.entity.Seat;
 

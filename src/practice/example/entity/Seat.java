@@ -1,5 +1,5 @@
 package practice.example.entity;
-
+//20250121
 import java.util.Objects;
 
 // 20250120-5

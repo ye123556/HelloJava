@@ -1,26 +1,8 @@
-package practice.homework;
+package yuna;
 
-import practice.homework.entity.Player;
-
-import java.util.Random;
-import java.util.Scanner;
-
-public class Dice {
+public class ex {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        Random random = new Random();
-
-        System.out.println("플레이어 이름을 입력해 주세요.");
-
-        Player[] players = new Player[2];
-        System.out.print("Player1 : ");
-        players[0] = new Player(sc.next());
-        System.out.print("player2 : ");
-        players[1] = new Player(sc.next());
-
-        System.out.println("주사위를 돌려주세요");
-
-        int num = random.nextInt(6)+1;
+/*        int num = random.nextInt(6)+1;
         String result = null;
 
         switch (num) {
@@ -68,7 +50,6 @@ public class Dice {
                         "└────────┘ ";
                 break;
         }
-        System.out.println(result);
+        System.out.println(result);*/
     }
-
 }

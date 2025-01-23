@@ -7,6 +7,11 @@ public class Player {
         this.player = player;
     }
 
+    /*while(player == 20)
+    Dice diceplay = new Dice();
+    int turn = diceplay.roll();*/
+
+
     @Override
     public String toString() {
         return "Player{" +

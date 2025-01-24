@@ -5,6 +5,8 @@ public class HumanTester {
         Human gildong = new Human("홍길동", 170, 60);
         Human chulsu = new Human("김철수", 166, 72);
 
+        gildong.gainWeight(3); // 홍길동이 3kg 쪘다. gainWeight에 파라미터 전달
+        chulsu.reduceWeight(5); // 김철수가 5kg 빠쪘다. reduceWeight에 파라미터 전달
         /*gildong.name = "홍길동";
         gildong.height = 170;
         gildong.weight = 60;

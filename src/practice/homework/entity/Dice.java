@@ -59,5 +59,6 @@ public class Dice {
         System.out.println(result);
 
         return 0;
+
     }
 }

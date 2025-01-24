@@ -1,5 +1,5 @@
 package chapter06;
-
+//20250124 - 2
 import java.util.Scanner;
 
 public class MinOfHeightWeight {

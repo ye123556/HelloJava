@@ -1,12 +1,18 @@
 package chapter06;
 //20250124 - 6
+import chapter06.lecture.Day;
+
 public class HumanTester {
     public static void main(String[] args) {
-        Human gildong = new Human("홍길동", 170, 60);
-        Human chulsu = new Human("김철수", 166, 72);
+        Human gildong = new Human("홍길동", 170, 60, new Day(2025,1,1)); // 2025년 1월 1일
+        Human chulsu = new Human("김철수", 166, 72, new Day(2024,1,1)); // 2024년 1월 1일
 
         gildong.gainWeight(3); // 홍길동이 3kg 쪘다. gainWeight에 파라미터 전달
         chulsu.reduceWeight(5); // 김철수가 5kg 빠쪘다. reduceWeight에 파라미터 전달
+
+        System.out.println(gildong);
+        System.out.println();
+        System.out.println(chulsu);
         /*gildong.name = "홍길동";
         gildong.height = 170;
         gildong.weight = 60;
@@ -15,12 +21,12 @@ public class HumanTester {
         chulsu.height = 166;
         chulsu.weight = 72;*/
 
-        System.out.println("이름" + gildong.getName());
+        /*System.out.println("이름" + gildong.getName());
         System.out.println("신장:" + gildong.getHeight() + "cm");
         System.out.println("체중:" + gildong.getWeight() + "kg");
         System.out.println();
         System.out.println("이름" + chulsu.getName());
         System.out.println("신장:" + chulsu.getHeight() + "cm");
-        System.out.println("체중:" + chulsu.getWeight() + "kg");
+        System.out.println("체중:" + chulsu.getWeight() + "kg");*/
     }
 }

@@ -1,5 +1,5 @@
 package chapter06;
-
+//20250124 - 3
 import java.util.Scanner;
 
 public class Min {

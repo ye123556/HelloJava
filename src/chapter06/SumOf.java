@@ -1,5 +1,5 @@
 package chapter06;
-// 20250124
+// 20250124 - 1
 import java.util.Scanner;
 
 public class SumOf {

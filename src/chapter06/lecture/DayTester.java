@@ -1,5 +1,7 @@
 package chapter06.lecture;
 // 20250124
+import chapter06.Day;
+
 import java.util.Scanner;
 
 public class DayTester {

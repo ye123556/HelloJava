@@ -1,6 +1,5 @@
 package chapter06;
 //20250124
-import chapter06.lecture.Day;
 
 public class AccountTester1 {
     public static void main(String[] args) {

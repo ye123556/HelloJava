@@ -1,6 +1,5 @@
 package chapter06;
 //20250124
-import chapter06.lecture.Day;//20250124 - 5
 
 public class Human {
 

@@ -1,4 +1,4 @@
-package chapter06.lecture;
+package chapter06;
 // 20250124 - 7
 import java.time.LocalDate;
 

@@ -1,6 +1,5 @@
 package chapter06;
 // 20240124
-import chapter06.lecture.Day;
 
 public class Account {
     public static int counter = 0;  // 식별 번호 몇번까지?

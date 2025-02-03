@@ -1,23 +1,28 @@
 package practice.homework.entity;
-//20250120
+
+//20250120, 플레이어 + 이벤트발생
+
 public class Player {
-    private String player;
+    private String player; // ? 사용 왜 안함?
+    private int location;
+
 
     public Player(String player) {
-        this.player = player;
+        player = player; // 사용안함
+        location = 0;
     }
 
-    /*while(player == 20)
-    Dice diceplay = new Dice();
-    int turn = diceplay.roll();*/
+    public int getLocation() { return location; }
 
+    public void addLocation(int num) {
+        location += num;
+        if (location == 6) {
+            location = 0;
+        }
+        if (location == 18)
+            location -= 3;
+        if (location == 13)
+            location += 2;
 
-    @Override
-    public String toString() {
-        return "Player{" +
-                "player='" + player + '\'' +
-                '}';
     }
-
-
 }

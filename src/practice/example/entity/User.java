@@ -3,7 +3,13 @@ package practice.example.entity;
 import java.util.Objects;
 
 // 20250120-6
-public class User {
+public class User extends BaseEntity {
+    private static long counter = 0;
+
+    {
+        this.id = ++counter;
+
+    }
     private String name;
 
     private String phomeNumber;

@@ -1,7 +1,7 @@
 package chapter07;
 //20250203-2
 import chapter06.Day;
-
+//20250203
 public class Car {
 
     // region 필드

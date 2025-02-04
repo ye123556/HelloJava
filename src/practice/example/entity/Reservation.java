@@ -3,8 +3,9 @@ package practice.example.entity;
 
 import java.time.LocalDateTime;
 
-public class Reservation {
-
+public class Reservation extends BaseEntity{
+   /* private long id;*/
+    private static long counter = 0;
     // 예약자
     private User user;
 

@@ -4,9 +4,9 @@ package chapter06;
 public class Human {
 
     // 필드
-    private static int counter = 0;// 몇번까지 식별 번호를 부여 했는가
+    /*private static int counter = 0;// 몇번까지 식별 번호를 부여 했는가*/
 
-    private int id;
+    private Id id; // int 대신 Id
 
     private String name; // 이름
 
@@ -18,7 +18,7 @@ public class Human {
 
     // 생성자
     public Human(String name, int height, int weight, Day birthday) {
-        this.id = ++counter;
+        /*this.id = ++counter;*/
         this.name = name;
         this.height = height;
         this.weight = weight;
@@ -27,7 +27,7 @@ public class Human {
     }
 
     // getter
-    public int getId() {
+    public Id getId() {
         return id;
     }
 

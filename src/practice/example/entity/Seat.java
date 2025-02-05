@@ -1,13 +1,23 @@
 package practice.example.entity;
-//20250121
-import java.util.Objects;
+// 20250205
+import practice.example.entity.base.BaseEntity;
 
-// 20250120-5
+import java.util.ArrayList;
+import java.util.List;
+
 public class Seat extends BaseEntity {
 
-    /*private long id; // 좌석 번호*/
-
     private static long counter = 0;
+
+    public static final List<Seat> SEAT_LIST = new ArrayList<>();
+
+    private static final int numberOfSeats = 20;
+
+    static {
+        for (int i = 1; i <= numberOfSeats ; i++) {
+            SEAT_LIST.add(new Seat(i));
+        }
+    }
 
     private String description; // 설명
 
@@ -17,14 +27,11 @@ public class Seat extends BaseEntity {
     }
 
     @Override
-    public boolean equals(Object o) {
+    public final boolean equals(Object o) {
+        if (this == o) return true;
         if (!(o instanceof Seat seat)) return false;
-        return id == seat.id;
-    }
 
-    @Override
-    public int hashCode() {
-        return Objects.hashCode(id);
+        return id == seat.id;
     }
 
     @Override
@@ -34,4 +41,9 @@ public class Seat extends BaseEntity {
                 ", description='" + description + '\'' +
                 '}';
     }
+
+    public String getDescription() {
+        return description;
+    }
 }
+

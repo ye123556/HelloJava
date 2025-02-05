@@ -1,14 +1,17 @@
 package practice.example.screen.panel;
-//20250204.
+// 20250205
+import practice.example.entity.User;
 import practice.example.screen.frame.BaseFrame;
+import practice.example.service.UserService;
 
 import javax.swing.*;
-import java.awt.*;
 import java.awt.*;
 import java.util.regex.Pattern;
 
 public class WelcomePanel extends JPanel {
     BaseFrame baseFrame;
+
+    UserService userService = UserService.getInstance();
 
     // Component, 구성 요소
     JLabel $userNameLabel;
@@ -51,8 +54,14 @@ public class WelcomePanel extends JPanel {
 
             if(validateNameAndPhoneNumber(name, phoneNumber)) {
                 // 해당 이름과 전화번호로 사용자 검색
+                User user = userService.checkMember(name, phoneNumber);
+
+                baseFrame.currentUser = user;
+
+                System.out.println(user);
 
                 // 다음 좌석 선택 페이지로 넘어가기
+                baseFrame.changePanel(new SeatSelectionPanel(baseFrame));
             }
         });
     }

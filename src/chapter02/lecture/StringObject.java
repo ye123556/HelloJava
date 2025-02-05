@@ -1,5 +1,5 @@
 package chapter02.lecture;
-
+// 20250205
 //String 객체 생성의 두가지 방법
 
 public class StringObject {

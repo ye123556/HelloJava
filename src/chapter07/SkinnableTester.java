@@ -1,5 +1,5 @@
 package chapter07;
-
+//20250206
 public class SkinnableTester {
     public static void main(String[] args) {
         SkinnableSoftware x = new SkinnableSoftware();

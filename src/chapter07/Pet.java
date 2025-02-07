@@ -1,5 +1,5 @@
 package chapter07;
-
+//20250206
 public class Pet {
     protected String name; // 애완견 이름
     protected String masterName; // 주인 이름

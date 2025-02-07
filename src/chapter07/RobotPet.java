@@ -1,5 +1,5 @@
 package chapter07;
-
+// 20250206
 public class RobotPet extends Pet {
     // 필드
 

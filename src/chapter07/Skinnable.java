@@ -1,5 +1,5 @@
 package chapter07;
-
+// 20250206
 public interface Skinnable {
     final static int BLACK = 0;
     final static int RED = 1;

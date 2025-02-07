@@ -1,5 +1,5 @@
 package chapter07;
-
+// 20250206
 public class HeadMountedDisplayTester {
     public static void main(String[] args) {
         // 익명 객체로 메서드 추가

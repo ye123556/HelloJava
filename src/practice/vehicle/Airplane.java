@@ -26,7 +26,6 @@ public class Airplane implements Vehicle {
         }
     }
 
-    // 비행기 속도가 음수가 되면 안되니깐 음수인 경우 예외처리
     @Override
     public void move() {
         try {

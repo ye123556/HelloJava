@@ -6,7 +6,6 @@ public class GasCar extends Car {
         super(name, speed, fuel);
     }
 
-    // Car의 move 메서드 예외처리와 방식이 같을 예정
     @Override
     public void move() {
         try {

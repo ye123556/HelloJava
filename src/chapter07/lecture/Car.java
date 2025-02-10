@@ -3,11 +3,11 @@ package chapter07.lecture;
 public class Car {
     public int speed;
 
-    protected int numberOfDoor;
+    /*protected*/public int numberOfDoor;
 
-    protected Car() {}
+    /*protected*/public Car() {}
 
-    protected  Car(int numberOfDoor) {
+    /*protected*/  Car(int numberOfDoor) {
         this.numberOfDoor = numberOfDoor;
     }
 

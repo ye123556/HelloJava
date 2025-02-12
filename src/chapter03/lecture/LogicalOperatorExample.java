@@ -3,6 +3,7 @@ package chapter03.lecture;
 // 논리연산자(&&, ||, ^, !)
 public class LogicalOperatorExample {
     public static void main(String[] args) {
+
         int charCode = 'A';
 
         // 대문자 구분
@@ -30,5 +31,4 @@ public class LogicalOperatorExample {
             System.out.println("2 또는 3의 배수군요.");
         }
     }
-
 }

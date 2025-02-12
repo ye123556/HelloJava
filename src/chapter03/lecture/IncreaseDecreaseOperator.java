@@ -8,12 +8,12 @@ public class IncreaseDecreaseOperator {
 
         System.out.println("--------------------");
         x++; // ++ 연산 x = x + 1;
-        ++x;
+        ++x; // x = 12
         System.out.println("x = " + x);
 
         System.out.println("--------------------");
         y--; // -- 연산 x = x - 1;
-        --y;
+        --y; // y = 8
         System.out.println("y= " + y);
 
         System.out.println("--------------------");

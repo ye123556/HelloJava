@@ -17,6 +17,7 @@ class Member extends Object {
         }
     }
 }
+
 public class MemberExample {
     public static void main(String[] args) {
         // 메모리 주소가 다른 객체들 생성
@@ -29,6 +30,7 @@ public class MemberExample {
         } else {
             System.out.println("obj1과 obj2는 동등하지 않습니다.");
         }
+
         if (obj1.equals(obj3)) { // 문자열 내용이 같기 때문에 true
             System.out.println("obj1과 obj3는 동등합니다.");
         } else {

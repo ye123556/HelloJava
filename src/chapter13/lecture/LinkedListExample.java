@@ -13,7 +13,7 @@ public class LinkedListExample {
 
         startTime = System.nanoTime();
 
-        for (int i = 0; i < 10_000; i++) {
+        for (int i = 0; i < 1_000_000; i++) {
             list1.add(0, String.valueOf(i));
         }
         endTime = System.nanoTime();
@@ -22,7 +22,7 @@ public class LinkedListExample {
 
         startTime = System.nanoTime();
 
-        for (int i = 0; i < 10_000; i++) {
+        for (int i = 0; i < 1_000_000; i++) {
             list2.add(0, String.valueOf(i));
         }
         endTime = System.nanoTime();

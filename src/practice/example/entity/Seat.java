@@ -29,9 +29,9 @@ public class Seat extends BaseEntity {
     @Override
     public final boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Seat seat)) return false;
+        if (!(o instanceof Seat)) return false;
 
-        return id == seat.id;
+        return id == ((Seat)o).id;
     }
 
     @Override

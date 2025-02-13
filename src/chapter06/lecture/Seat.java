@@ -15,8 +15,8 @@ public class Seat {
 
     @Override
     public boolean equals(Object o) {
-        if (!(o instanceof Seat seat)) return false;
-        return id == seat.id;
+        if (!(o instanceof Seat)) return false;
+        return id == ((Seat)o).id;
     }
 
     @Override

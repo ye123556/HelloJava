@@ -48,7 +48,7 @@ public class HashSetExample {
         // HashSet의 경우 hashcode()와 equals를 구현해주어야 함;
 
         System.out.println(set2);
-        System.out.println("총 객체 수 : " + set2.size());
+        System.out.println("총 객체 수 : " + set2.size());  // 1개
     }
 }
 
@@ -72,8 +72,8 @@ class Member {
     @Override
     public boolean equals(Object o) { // 보류
         if(this == o) return true;
-        if (!(o instanceof Member member)) return false;
-        return age == member.age && Objects.equals(name, member.name);
+        if (!(o instanceof Member)) return false;
+        return (age == ((Member)o).age) && Objects.equals(name, ((Member)o).name);
     }
 
     @Override

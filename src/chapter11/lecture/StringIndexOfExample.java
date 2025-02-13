@@ -1,4 +1,4 @@
-package chapter11.lecture.images;
+package chapter11.lecture;
 // 20250210
 public class StringIndexOfExample {
     public static void main(String[] args) {

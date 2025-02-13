@@ -17,9 +17,9 @@ class Student {
     @Override
     public final boolean equals(Object o) {
         if(this == o) return true;
-        if (!(o instanceof Student student)) return false;
+        if (!(o instanceof Student)) return false;
 
-        return sno == student.sno && Objects.equals(name, student.name);
+        return sno == ((Student)o).sno && Objects.equals(name, ((Student)o).name);
     }
 
     @Override

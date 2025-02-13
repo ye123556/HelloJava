@@ -43,9 +43,9 @@ public class User extends BaseEntity {
     @Override
     public final boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof User user)) return false;
+        if (!(o instanceof User)) return false;
 
-        return Objects.equals(name, user.name) && Objects.equals(phoneNumber, user.phoneNumber);
+        return Objects.equals(name, ((User)o).name) && Objects.equals(phoneNumber, ((User)o).phoneNumber);
     }
 
     @Override

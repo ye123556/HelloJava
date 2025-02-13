@@ -1,4 +1,4 @@
-package chapter11;
+package chapter11.lecture;
 // 20250210 - 오후
 public class StringToPrimitiveValueExample {
     public static void main(String[] args) {

@@ -9,18 +9,18 @@ class SmartPhone {
         this.os = os;
     }
 
-    // toString()  재정의
+    // toString() 재정의
     @Override
     public String toString() {
-        return company + ", " + os + " 스마트폰"; // ※ 작성부분
-    }
+        return company + ", " + os + " 스마트폰"; } // ※ 작성부분
 }
 
 public class SmartPhoneExample {
     public static void main(String[] args) {
         SmartPhone myPhone = new SmartPhone("구글", "안드로이드");
 
-        String strObj = myPhone.toString(); // 재정의 된 toString()을 호출
+        // 재정의 된 toString()을 호출
+        String strObj = myPhone.toString();
 
         System.out.println(strObj);
 

@@ -2,7 +2,6 @@ package chapter11.lecture;
 // 20250210-2
 import java.util.HashMap;
 
-//20250210-2
 class Key {
     public int number;
 
@@ -12,9 +11,10 @@ class Key {
 
     @Override
     public boolean equals(Object o) {
-        /*if(this == o)*/
-        if (!(o instanceof Key key)) return false;
-        return number == key.number;
+        if(this == o) return true;
+        if (!(o instanceof Key)) return false;
+
+        return number == ((Key)o).number;
     }
 
     @Override
@@ -41,9 +41,7 @@ public class KeyExample {
         Key key2 = new Key(1);
         System.out.println("key2.hashCode() = " + key2.hashCode());
 
-        // 작성 못함 ㅠㅠ
-
-        String value = hashMap.get(new Key(1)); // "홍길동"
+        String value = hashMap.get(key2); // "홍길동"
         System.out.println(value);
 
         // String은  hashMap이 어떻게 되어 있을까?
@@ -54,6 +52,5 @@ public class KeyExample {
 
         System.out.println(hashMap1.get("심청이"));
         System.out.println(hashMap1.get("임꺽정"));
-
     }
 }

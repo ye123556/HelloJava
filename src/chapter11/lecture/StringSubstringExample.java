@@ -12,7 +12,6 @@ public class StringSubstringExample {
         // 파라미터 1개인 경우, 주어진 인덱스부터 끝까지 문자열을 추출
         String secondNum = ssn.substring(7); // "7부터 끝까지!"
         System.out.println(secondNum);
-
     }
 
     static String subStr(String src, int startIndex, int endIndex) {

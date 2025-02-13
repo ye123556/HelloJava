@@ -1,4 +1,4 @@
-package chapter11.lecture;
+package chapter11;
 // 20250211-04
 import java.time.DayOfWeek;
 import java.time.LocalDate;

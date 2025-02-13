@@ -7,7 +7,7 @@ public class TimeExample {
         // 나노세컨드 단위로 받아옴
         // long nanoTime = system.nanoTime();
 
-        for (int i = 0; i < 1_005_000; i++) {
+        for (int i = 0; i < 1_000_000; i++) { // 1_000_500 으로 해봐
             System.out.println(1);
         }
 

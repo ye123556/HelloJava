@@ -3,7 +3,7 @@ package chapter13.lecture;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ArrayListEcample {
+public class ArrayListExample {
     public static void main(String[] args) {
         List<String> list = new ArrayList<String>(); // String 객체를 저장
 

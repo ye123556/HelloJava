@@ -29,6 +29,5 @@ public class DaysUntilChristmas {
         System.out.println("크리스마스 남은 일수 : " + daysBeteen);
 
         // 결과 출력
-        // 21번째 줄 다시보기
     }
 }

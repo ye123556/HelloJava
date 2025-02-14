@@ -18,6 +18,10 @@ public class Box<T> {
         return list.get(i);
     }
 
+    public List<T> getList() {
+        return list;
+    }
+
     int size() {
         return list.size();
     }

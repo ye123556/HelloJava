@@ -7,13 +7,11 @@ class BeepThread extends Thread {
     public void run() {
         Toolkit toolkit = Toolkit.getDefaultToolkit();
 
-        for(int i = 0; i < 5; i++) {
-            System.out.println("익명");
+        for(int i=0; i<5; i++) {
+            toolkit.beep();
             try {
                 Thread.sleep(500);
-            } catch (Exception e) {
-                e.getStackTrace();
-            }
+            } catch (Exception e) {}
         }
     }
 }
@@ -21,30 +19,28 @@ class BeepThread extends Thread {
 public class BeepPrintExample4 {
     public static void main(String[] args) {
         // 익명 객체로 변경
-        // Thread thread = new Thread
+        // Thread thread = new BeepThread();
         Thread thread = new Thread() {
+            @Override
             public void run() {
                 Toolkit toolkit = Toolkit.getDefaultToolkit();
 
-                for (int i = 0; i < 5; i++) {
+                for(int i=0; i<5; i++) {
                     toolkit.beep();
-                    System.out.println("띵");
                     try {
                         Thread.sleep(500);
-                    } catch (Exception e) {
-                    }
+                    } catch (Exception e) {}
                 }
             }
         };
 
         thread.start();
 
-        for (int i = 0; i < 5; i++) {
+        for(int i=0; i<5; i++) {
             System.out.println("띵");
             try {
                 Thread.sleep(500);
-            } catch (Exception e) {
-            }
+            } catch (Exception e) {}
         }
     }
-} // 보류 다시 작성
+}

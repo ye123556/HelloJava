@@ -11,7 +11,7 @@ public class CharCaseConv { // 클래스 선언
         System.out.println();
 
         System.out.println("'A' -> int형 형변환 후 출력 : "+(int) 'A');
-        System.out.println("Ascll code 65 -> char형 형변환 : "+(char)65);
+        System.out.println("Ascll code 65 -> char형 형변환 : "+(char) 65);
         System.out.println();
 
         char ch2 = (char) (ch1 - 32); // A

@@ -6,7 +6,7 @@ class Card {
 
     public static final double CARD_HEIGHT = 8.0; // 세로 길이
 
-    //인스턴스 변수, 힙 영역에서 각자 생성
+    // 인스턴스 변수, 힙 영역에서 각자 생성
     public int number;
 
     public String shape;
@@ -29,14 +29,13 @@ class Card {
     }
 }
 
-
 public class CardTest {
     public static void main(String[] args) {
         Card myCard = new Card(7, "Heart", "Red");
 
         /*myCard.number = 7;
-        myCard.color = "Red";
-        myCard.shape = "Heart";*/
+        myCard.shape = "Heart";
+        myCard.color = "Red";*/
 
         //카드 사이즈 출력
         System.out.println("Card Size: " + Card.CARD_WIDTH + " x " + Card.CARD_HEIGHT); // Card.CARD_WIDTH  > myCard.CARD_HEIGHT

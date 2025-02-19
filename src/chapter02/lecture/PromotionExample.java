@@ -7,7 +7,7 @@ public class PromotionExample {
         // 1 byte
         byte byteValue =10;
         // 4 bite
-        int intValue = (int)byteValue; // 회색은 생략가능
+        int intValue = /*(int)*/byteValue; // (int) 생략가능
         System.out.println("intValue = " + intValue); //soutv
 
         //2byte
@@ -19,7 +19,7 @@ public class PromotionExample {
         // 4byte
         intValue = 50;
         // 8byte
-        long longValue = (long)intValue;
+        long longValue = /*(long)*/intValue;
         System.out.println("longValue= " + longValue);
 
         // 8byte

@@ -13,7 +13,7 @@ public class MathExample {
 
         // Math 클래스의 원주율 상수 호출
         double PI = Math.PI;
-        double radius = 10.0;
+        double radius = 10.0; // 반지름
 
         System.out.println("반지름이 10인 원의 넓이는 " + PI * radius * radius);
 

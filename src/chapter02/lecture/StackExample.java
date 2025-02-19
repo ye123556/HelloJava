@@ -15,7 +15,7 @@ public class StackExample {
 
     public static void someMethod() {
         int methodVariable = 20; // someMethod의 지역변수
-        System.out.println("SomeMethod 시작"+methodVariable + "클래스 변수 : "+ classVariable);
+        System.out.println("SomeMethod 시작" + methodVariable + "클래스 변수 : " + classVariable);
 
         anotherMethod();
 
@@ -23,7 +23,7 @@ public class StackExample {
     }
     public static void anotherMethod() {
         int anotherVariable = 30; // anotherMethod의 지역 변수
-        System.out.println("anotherMethod 시작"+ anotherVariable + "클래스 변수 : " + classVariable);
+        System.out.println("anotherMethod 시작" + anotherVariable + "클래스 변수 : " + classVariable);
 
         System.out.println("anotherMethod 끝");
     }

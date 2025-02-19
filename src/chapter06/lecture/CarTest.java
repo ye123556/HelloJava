@@ -12,13 +12,13 @@ class Car { // 자동차 객체 설계도
 
     // 기본 생성자(파라미터가 없음)
     // 파라미터가 있는 생성자를 작성할 경우 컴파일러가 자동으로 추가하지 않음
-    public Car() {
-    }
+    public Car() {}
 
     // 파라미터가 있는 생성자
     public Car(String model) {
         this.model = model;
     }
+
     // 메서드 시그니처 같아가 컴파일 오류 발생
     /*public Car(String color) {
         this.color = color;

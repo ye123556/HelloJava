@@ -16,7 +16,7 @@ public class InitializationExample {
     // 인스턴스 변수
     private int instanceVariable = 1; // 5. 0으로 인스턴스 필드 초기화 이후 대입됨
 
-    // 인슨턴스 변수
+    // 인스턴스 변수
     {
         System.out.println("인스턴스 초기화 블록"); // 6. 인스턴스 초기화 블록 수행
         System.out.println(instanceVariable);

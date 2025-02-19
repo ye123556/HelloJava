@@ -33,13 +33,11 @@ public class Bike {
             speed = 0;
             System.out.println("정지");
         }
-
         displaySpeed();
     }
 
     // 가속 메서드 : 파라미터 값만큼 속도 증가 // accelerate 메서드 : 파라미터 값만큼 속도 증가
     public  void  accelerate(int increment) {
-
         this.speed += increment;
         if(increment > 0) {
             System.out.println("가속합니다.");

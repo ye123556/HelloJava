@@ -1,6 +1,5 @@
-package chapter06.lecture;
+package chapter06;
 // 20250124
-import chapter06.Day;
 
 import java.util.Scanner;
 
